@@ -4,22 +4,21 @@ pytorch implementation of semantically-conditioned LSTM on multiwoz data
 
 semantically-conditioned LSTM: https://arxiv.org/pdf/1508.01745.pdf
 
-<Hyper-parameters>
+# Hyper-parameters
 
 dataSplitFile=resource/woz3/data_split/Boo_ResDataSplitRand0925.json
-
-model_path=./sclstm.pt
 
 l=1
 
 bs=200
 
 lr=0.001
-
+model_path=./sclstm.pt
+log=./sclstm.log
 res=./sclstm.res
 
 
-<TRAIN>
+TRAIN
 
 python3 run_woz3.py --data_split=$dataSplitFile --mode=train --model_path=$model_path --n_layer=$l --bs=$bs --lr=$lr > $log
 
