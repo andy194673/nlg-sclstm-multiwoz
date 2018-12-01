@@ -174,7 +174,7 @@ def read(config, args, mode):
 		bs = 1
 
 	percentage = args.percent
-	dataset = DatasetWoz3(config, args.data_split, percentage=percentage, bs=args.bs)
+	dataset = DatasetWoz3(config, args.data_split, percentage=percentage)
 
 	# get model hyper-parameters
 	# TODO: support vanilla lstm and vae
