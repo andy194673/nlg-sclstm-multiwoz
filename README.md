@@ -12,7 +12,7 @@ l=1
 
 bs=200
 
-lr=0.001
+lr=0.005
 
 model_path=./sclstm.pt
 
