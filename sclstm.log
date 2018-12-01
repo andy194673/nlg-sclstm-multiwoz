@@ -1,0 +1,225 @@
+***** DATA INFO *****
+Using 100.0% of training data
+BATCH SIZE: 256
+Train: 25980 turns
+Valid: 3128 turns
+Test: 3113 turns
+# of batches: Train 101 Valid 12 Test 12
+*************************
+
+Using deep version with 1 layer
+Using sclstm as decoder with module list!
+do not support re-train model, please make sure the model do not exist before training
+
+***** MODEL INFO *****
+MODEL PATH: ./sclstm3.pt
+SIZE OF HIDDEN: 128
+# of LAYER: 1
+SAMPLE/BEAM SIZE: 1
+*************************
+
+Epoch 0 (n_layer 1)
+Train Loss: 4.456 | Time: 43.6
+valid Loss: 3.397 | Slot error: 94.844 | Time: 13.2
+redunt: 1086.0, miss: 1857.0, total: 3103.0
+Best loss: 3.397, AND Save model!
+----------------------------------------
+Epoch 1 (n_layer 1)
+Train Loss: 2.625 | Time: 43.3
+valid Loss: 2.208 | Slot error: 67.838 | Time: 13.3
+redunt: 960.0, miss: 1145.0, total: 3103.0
+Best loss: 2.208, AND Save model!
+----------------------------------------
+Epoch 2 (n_layer 1)
+Train Loss: 1.995 | Time: 43.2
+valid Loss: 1.891 | Slot error: 45.504 | Time: 13.4
+redunt: 600.0, miss: 812.0, total: 3103.0
+Best loss: 1.891, AND Save model!
+----------------------------------------
+Epoch 3 (n_layer 1)
+Train Loss: 1.770 | Time: 43.1
+valid Loss: 1.747 | Slot error: 24.944 | Time: 13.4
+redunt: 269.0, miss: 505.0, total: 3103.0
+Best loss: 1.747, AND Save model!
+----------------------------------------
+Epoch 4 (n_layer 1)
+Train Loss: 1.648 | Time: 43.1
+valid Loss: 1.657 | Slot error: 18.240 | Time: 13.4
+redunt: 152.0, miss: 414.0, total: 3103.0
+Best loss: 1.657, AND Save model!
+----------------------------------------
+Epoch 5 (n_layer 1)
+Train Loss: 1.569 | Time: 43.2
+valid Loss: 1.601 | Slot error: 14.857 | Time: 13.3
+redunt: 178.0, miss: 283.0, total: 3103.0
+Best loss: 1.601, AND Save model!
+----------------------------------------
+Epoch 6 (n_layer 1)
+Train Loss: 1.512 | Time: 43.5
+valid Loss: 1.559 | Slot error: 11.473 | Time: 13.3
+redunt: 105.0, miss: 251.0, total: 3103.0
+Best loss: 1.559, AND Save model!
+----------------------------------------
+Epoch 7 (n_layer 1)
+Train Loss: 1.468 | Time: 43.4
+valid Loss: 1.524 | Slot error: 10.989 | Time: 13.4
+redunt: 124.0, miss: 217.0, total: 3103.0
+Best loss: 1.524, AND Save model!
+----------------------------------------
+Epoch 8 (n_layer 1)
+Train Loss: 1.431 | Time: 43.6
+valid Loss: 1.502 | Slot error: 8.701 | Time: 13.5
+redunt: 116.0, miss: 154.0, total: 3103.0
+Best loss: 1.502, AND Save model!
+----------------------------------------
+Epoch 9 (n_layer 1)
+Train Loss: 1.401 | Time: 43.3
+valid Loss: 1.482 | Slot error: 7.509 | Time: 13.5
+redunt: 85.0, miss: 148.0, total: 3103.0
+Best loss: 1.482, AND Save model!
+----------------------------------------
+Epoch 10 (n_layer 1)
+Train Loss: 1.373 | Time: 43.4
+valid Loss: 1.464 | Slot error: 8.669 | Time: 13.4
+redunt: 107.0, miss: 162.0, total: 3103.0
+Best loss: 1.464, AND Save model!
+----------------------------------------
+Epoch 11 (n_layer 1)
+Train Loss: 1.349 | Time: 43.4
+valid Loss: 1.456 | Slot error: 6.220 | Time: 13.4
+redunt: 58.0, miss: 135.0, total: 3103.0
+Best loss: 1.456, AND Save model!
+----------------------------------------
+Epoch 12 (n_layer 1)
+Train Loss: 1.329 | Time: 43.5
+valid Loss: 1.441 | Slot error: 6.445 | Time: 13.3
+redunt: 81.0, miss: 119.0, total: 3103.0
+Best loss: 1.441, AND Save model!
+----------------------------------------
+Epoch 13 (n_layer 1)
+Train Loss: 1.311 | Time: 43.4
+valid Loss: 1.424 | Slot error: 4.995 | Time: 13.3
+redunt: 52.0, miss: 103.0, total: 3103.0
+Best loss: 1.424, AND Save model!
+----------------------------------------
+Epoch 14 (n_layer 1)
+Train Loss: 1.294 | Time: 43.6
+valid Loss: 1.421 | Slot error: 5.543 | Time: 13.3
+redunt: 58.0, miss: 114.0, total: 3103.0
+Best loss: 1.421, AND Save model!
+----------------------------------------
+Epoch 15 (n_layer 1)
+Train Loss: 1.281 | Time: 43.3
+valid Loss: 1.411 | Slot error: 5.092 | Time: 13.3
+redunt: 58.0, miss: 100.0, total: 3103.0
+Best loss: 1.411, AND Save model!
+----------------------------------------
+Epoch 16 (n_layer 1)
+Train Loss: 1.267 | Time: 43.4
+valid Loss: 1.403 | Slot error: 4.931 | Time: 13.4
+redunt: 46.0, miss: 107.0, total: 3103.0
+Best loss: 1.403, AND Save model!
+----------------------------------------
+Epoch 17 (n_layer 1)
+Train Loss: 1.255 | Time: 43.4
+valid Loss: 1.406 | Slot error: 4.931 | Time: 13.4
+redunt: 64.0, miss: 89.0, total: 3103.0
+----------------------------------------
+Epoch 18 (n_layer 1)
+Train Loss: 1.243 | Time: 44.0
+valid Loss: 1.399 | Slot error: 4.061 | Time: 13.5
+redunt: 34.0, miss: 92.0, total: 3103.0
+Best loss: 1.399, AND Save model!
+----------------------------------------
+Epoch 19 (n_layer 1)
+Train Loss: 1.233 | Time: 43.7
+valid Loss: 1.394 | Slot error: 3.835 | Time: 13.3
+redunt: 27.0, miss: 92.0, total: 3103.0
+Best loss: 1.394, AND Save model!
+----------------------------------------
+Epoch 20 (n_layer 1)
+Train Loss: 1.221 | Time: 43.7
+valid Loss: 1.388 | Slot error: 4.157 | Time: 13.4
+redunt: 44.0, miss: 85.0, total: 3103.0
+Best loss: 1.388, AND Save model!
+----------------------------------------
+Epoch 21 (n_layer 1)
+Train Loss: 1.213 | Time: 43.5
+valid Loss: 1.388 | Slot error: 3.835 | Time: 13.4
+redunt: 43.0, miss: 76.0, total: 3103.0
+Best loss: 1.388, AND Save model!
+----------------------------------------
+Epoch 22 (n_layer 1)
+Train Loss: 1.204 | Time: 43.4
+valid Loss: 1.382 | Slot error: 3.996 | Time: 13.4
+redunt: 50.0, miss: 74.0, total: 3103.0
+Best loss: 1.382, AND Save model!
+----------------------------------------
+Epoch 23 (n_layer 1)
+Train Loss: 1.194 | Time: 43.2
+valid Loss: 1.382 | Slot error: 3.609 | Time: 13.5
+redunt: 33.0, miss: 79.0, total: 3103.0
+Best loss: 1.382, AND Save model!
+----------------------------------------
+Epoch 24 (n_layer 1)
+Train Loss: 1.189 | Time: 42.9
+valid Loss: 1.382 | Slot error: 3.835 | Time: 13.4
+redunt: 38.0, miss: 81.0, total: 3103.0
+----------------------------------------
+Epoch 25 (n_layer 1)
+Train Loss: 1.179 | Time: 43.3
+valid Loss: 1.383 | Slot error: 3.932 | Time: 13.4
+redunt: 46.0, miss: 76.0, total: 3103.0
+----------------------------------------
+Epoch 26 (n_layer 1)
+Train Loss: 1.172 | Time: 43.4
+valid Loss: 1.377 | Slot error: 3.094 | Time: 13.4
+redunt: 42.0, miss: 54.0, total: 3103.0
+Best loss: 1.377, AND Save model!
+----------------------------------------
+Epoch 27 (n_layer 1)
+Train Loss: 1.166 | Time: 43.5
+valid Loss: 1.372 | Slot error: 3.481 | Time: 13.4
+redunt: 37.0, miss: 71.0, total: 3103.0
+Best loss: 1.372, AND Save model!
+----------------------------------------
+Epoch 28 (n_layer 1)
+Train Loss: 1.160 | Time: 43.4
+valid Loss: 1.376 | Slot error: 3.513 | Time: 13.4
+redunt: 37.0, miss: 72.0, total: 3103.0
+----------------------------------------
+Epoch 29 (n_layer 1)
+Train Loss: 1.153 | Time: 43.2
+valid Loss: 1.370 | Slot error: 3.416 | Time: 13.5
+redunt: 32.0, miss: 74.0, total: 3103.0
+Best loss: 1.370, AND Save model!
+----------------------------------------
+Epoch 30 (n_layer 1)
+Train Loss: 1.147 | Time: 43.6
+valid Loss: 1.375 | Slot error: 3.352 | Time: 13.4
+redunt: 32.0, miss: 72.0, total: 3103.0
+----------------------------------------
+Epoch 31 (n_layer 1)
+Train Loss: 1.140 | Time: 43.1
+valid Loss: 1.379 | Slot error: 3.609 | Time: 13.3
+redunt: 43.0, miss: 69.0, total: 3103.0
+----------------------------------------
+Epoch 32 (n_layer 1)
+Train Loss: 1.137 | Time: 43.0
+valid Loss: 1.373 | Slot error: 3.126 | Time: 13.5
+redunt: 37.0, miss: 60.0, total: 3103.0
+----------------------------------------
+Epoch 33 (n_layer 1)
+Train Loss: 1.132 | Time: 43.3
+valid Loss: 1.378 | Slot error: 3.513 | Time: 13.5
+redunt: 43.0, miss: 66.0, total: 3103.0
+----------------------------------------
+Epoch 34 (n_layer 1)
+Train Loss: 1.125 | Time: 44.1
+valid Loss: 1.374 | Slot error: 3.094 | Time: 13.4
+redunt: 32.0, miss: 64.0, total: 3103.0
+----------------------------------------
+Epoch 35 (n_layer 1)
+Train Loss: 1.122 | Time: 43.5
+valid Loss: 1.371 | Slot error: 2.868 | Time: 13.4
+redunt: 31.0, miss: 58.0, total: 3103.0
