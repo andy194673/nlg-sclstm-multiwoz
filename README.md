@@ -31,3 +31,8 @@ python3 run_woz3.py --data_split=$dataSplitFile --mode=train --model_path=$model
 TEST
 
 python3 run_woz3.py --data_split=$dataSplitFile --mode=test --model_path=$model_path --n_layer=$l --beam_size=10 --bs=$bs > $res
+
+
+Calculate BLEU
+
+python3 bleu.py --res_file=$res
