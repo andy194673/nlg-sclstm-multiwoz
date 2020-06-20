@@ -103,7 +103,7 @@ def evaluate(config, dataset, model, data_type, beam_search, beam_size, batch_si
 
 			# update loss
 			loss = model.get_loss(label_var, lengths)
-			total_loss += loss.data[0]
+			total_loss += loss.item()
 
 			# run generation for calculating slot error 
 			decoded_words = model(input_var, dataset, feats_var, gen=True, beam_search=False, beam_size=1)
@@ -151,7 +151,7 @@ def train_epoch(config, dataset, model):
 		loss = model.get_loss(label_var, lengths)
 
 		# update loss
-		total_loss += loss.data[0]
+		total_loss += loss.item()
 
 		# update model
 		model.update(config.getfloat('MODEL', 'clip'))

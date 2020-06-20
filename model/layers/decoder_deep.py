@@ -202,7 +202,7 @@ class DecoderDeep(nn.Module):
 			
 		decoded_words_t = np.zeros((batch_size, self.output_size))
 		for b in range(batch_size):
-			idx = topi[b][0]
+			idx = topi[b][0].item()
 			word = dataset.index2word[idx]
 			decoded_words[b] += (word + ' ')
 			decoded_words_t[b][idx] = 1
